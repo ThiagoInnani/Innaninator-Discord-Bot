@@ -18,6 +18,7 @@ def run_bot():
 
     ffmpeg_options = {'options': '-vn'}
 
+
     @client.event
     async def on_ready():
         print(f'{client.user} tá tocando a batida')
